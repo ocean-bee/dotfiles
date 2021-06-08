@@ -1,2 +1,3 @@
-# My dotfiles (❍ᴥ❍ʋ)
+# My dotfiles 🦄
 
+Managed with chezmoi.
