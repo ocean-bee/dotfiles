@@ -1,9 +1,12 @@
 #Starship Prompt
 eval "$(starship init zsh)"
 
+
+#colored LS
+alias ls='ls -G'
+
 #zsh-autosuggestions
 source ~/.zsh-plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-#zsh-syntax-highlighting (LOAD LAST)
-source ${(q-)PWD}/.zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-alias ls='ls -G'
+#zsh-syntax-highlighting
+source ~/.zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
